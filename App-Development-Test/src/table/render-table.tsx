@@ -1,7 +1,5 @@
-import React, { useEffect, useState, useRef } from "react";
+import  {  useState } from "react";
 import TableItem from "./component/table-item";
-import { TUser } from "./type/table.user.type";
-import { fetchFakeData } from "./service/user.service";
 import Spinner from "./component/spinner";
 import MySelect from "./component/option-select";
 import Pagination from "./component/render-page-table";
