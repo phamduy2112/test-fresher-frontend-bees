@@ -54,7 +54,10 @@ function RenderTable() {
   return (
     <div className="w-full max-w-[80rem] mx-auto px-4">
       {loading ? (
-        <Spinner />
+ <div className="flex items-center justify-center h-screen">
+ <Spinner />
+</div>
+      
       ) : filteredUsers.length > 0 ? (
         <div>
           <h1 className="text-center my-[2rem] font-bold text-[1.5rem]">Table of users</h1>
